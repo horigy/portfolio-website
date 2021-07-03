@@ -1,0 +1,29 @@
+.contacts__wrapper
+    .contacts__title Связаться со мной
+    form(action="./send.php" enctype="multipart/form-data" method="post" id="form" ).contacts__form
+
+        .form__row1
+            .form__block
+                .form__name Введите ваше имя
+                .form__input
+                    <svg class="input-icon">
+                        <use xlink:href="#user"></use>
+                    </svg>  
+                    input(type="text" name="name").form__input-text
+            .form__block
+                .form__name Введите ваш email
+                .form__input
+                    <svg class="input-icon">
+                        <use xlink:href="#envelope"></use>
+                    </svg>    
+                    input(type="text" name="email").form__input-text
+        .form__row2
+            .form__block.form__block-textarea
+                .form__name Сообщение к письму
+                .form__input
+                    <svg class="input-icon">
+                        <use xlink:href="#message"></use>
+                    </svg>    
+                    textarea.form__input-text.textarea(name="text" rows="2" wrap="soft")
+        .form__row3
+            button(type="submit").send__btn отправить

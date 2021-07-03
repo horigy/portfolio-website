@@ -1,0 +1,26 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.welcome__section {
+    // background: url(~images/content/Mountain_Baloon.png) no-repeat;
+    // background-repeat: no-repeat; 
+    // background-size: cover;
+    position: relative;
+}
+
+
+.content__section {
+    position: relative;
+}
+
+.last__section {
+    // background: url(~images/content/Budda.png);
+    // background-repeat: no-repeat; 
+    // background-size: cover;
+    position: relative;
+}

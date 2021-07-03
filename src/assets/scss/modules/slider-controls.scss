@@ -1,0 +1,26 @@
+.slider__controls {
+    display: flex;
+    width: 90px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.controls__icon {
+    width: 35px;
+    height: 35px;
+    fill: $primary-color;
+
+    @media screen and (max-width: 500px) {
+        width: 30px;
+        height: 30px;
+    }
+
+    &:hover {
+        stroke: $purple-color;
+    }
+}
+
+.arrow-left {
+    transform: rotate(180deg);
+}

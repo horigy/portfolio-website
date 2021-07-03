@@ -1,0 +1,29 @@
+.menu {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__item {
+    padding: 5px 30px;
+
+    &:hover {
+        border-bottom: 1px solid $hover-color;
+        & > .menu__link {
+            color: $hover-color;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        padding: 5px 15px;
+    }
+}
+
+.menu__link {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+}

@@ -1,0 +1,64 @@
+.burger__wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    background-color: $primary-color;
+    z-index: 10;
+    opacity: .8;
+    display: none;
+
+    @media screen and (max-width: 900px) {
+        width: 40%;
+    }
+
+    @media screen and (max-width: 600px) {
+        width: 60%;
+    }
+}
+
+.burger__list {
+    width: 100%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.burger__item {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+}
+
+.burger__link {
+    width: 100%;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.burger__close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.close__icon {
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+
+.burger__visible {
+    display: block;
+}

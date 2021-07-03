@@ -1,0 +1,37 @@
+.upscroll {
+    position: fixed;
+    bottom: 10%;
+    right: 50px;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+
+    @media screen and (max-width: 600px) {
+        right: 30px;
+        bottom: 9%;
+    }
+}
+
+.up-button {
+    width: 60px;
+    height: 60px;
+    fill: $primary-color;
+    opacity: 0.3;
+
+    &:hover {
+        fill: $hover-color;
+        opacity: 1;
+    }
+
+    @media screen and (max-width: 600px) {
+        width: 40px;
+        height: 40px;
+    }
+}
+  
+
+  
+.upscroll-show {
+    display: block;
+}

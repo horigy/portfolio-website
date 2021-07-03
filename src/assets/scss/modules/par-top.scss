@@ -1,0 +1,107 @@
+.p-sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
+
+    @media screen and (max-width: 1000px) {
+        display: none;
+    }
+}
+
+.p-mountain {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: cover;
+
+    @media screen and (max-width: 1000px) {
+        display: none;
+    }
+    
+}
+
+.p-baloon {
+    position: absolute;
+    top: 29%;
+    left: 66%;
+    width: 12%;
+    
+    @media screen and (max-width: 1000px) {
+        display: none;
+    }
+}
+
+.p-cloud {
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
+
+    @media screen and (max-width: 1000px) {
+        display: none;
+    }
+}
+
+.p-man {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 1000px) {
+        display: none;
+    }
+}
+
+.p-mountain1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+
+    @media screen and (max-width: 1000px) {
+        display: none;
+    }
+}
+
+.p-white {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
+
+    @media screen and (max-width: 1000px) {
+        display: none;
+    }
+}
+
+// .p-scene {
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+// }
+
+.no-parallax {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+
+    @media screen and (max-width: 1000px) {
+        display: block;
+    }
+}

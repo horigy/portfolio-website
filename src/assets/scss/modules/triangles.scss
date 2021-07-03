@@ -1,0 +1,44 @@
+
+// .triangles {
+//     width: 100%;
+// }
+
+
+.skills__triangles {
+    display: flex;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+.cert__triangles {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+.triangle {
+    fill: currentColor;
+}
+
+.cert__triangle {
+    transform: rotate(180deg)
+}
+
+.triangles__item {
+    width: 50%;
+    height: 100px;
+
+    @media screen and (max-width: 900px) {
+        height: 60px;
+    }
+
+    @media screen and (max-width: 600px) {
+        height: 40px;
+    }
+}

@@ -1,0 +1,29 @@
+@import "utils/libs";
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+@import "utils/reset";
+@import "utils/normalize";
+@import "utils/lightbox";
+
+
+
+// Modules
+@import "modules/layout";
+@import "modules/sections";
+@import "modules/par-top";
+@import "modules/burger-menu";
+@import "modules/triangles";
+@import "modules/socials";
+@import "modules/menu";
+@import "modules/header";
+@import "modules/hero";
+@import "modules/about";
+@import "modules/skills";
+@import "modules/slider-works";
+@import "modules/cert";
+@import "modules/slider-controls";
+@import "utils/feature-carousel";
+@import "modules/contacts";
+@import "modules/upscroll";
+@import "modules/footer";
